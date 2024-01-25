@@ -190,7 +190,7 @@ export default function CreateListing() {
             placeholder='Description'
             className='border p-3 rounded-lg'
             id='description'
-            maxLength='150'
+            maxLength='500'
             minLength='8'
             required
             onChange={handleChange}
